@@ -1,5 +1,3 @@
----
-
 # Agentic Document Extraction Pipeline
 
 ## Overview
@@ -8,10 +6,10 @@ This project implements an **agent-based document understanding pipeline** desig
 
 The system combines:
 
-* **Mistral OCR 3** for high-quality OCR
-* **Groq-hosted LLMs (LLaMA 3.1)** for classification, extraction, and reasoning
-* **JSON Schema validation** to enforce strict output contracts
-* **Confidence-driven retries** to improve extraction reliability
+- **Mistral OCR 3** for high-quality OCR
+- **Groq-hosted LLMs (LLaMA 3.1)** for classification, extraction, and reasoning
+- **JSON Schema validation** to enforce strict output contracts
+- **Confidence-driven retries** to improve extraction reliability
 
 The pipeline is intentionally lightweight and modular, making it suitable for research, experimentation, and controlled production workflows.
 
