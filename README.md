@@ -98,7 +98,7 @@ Document (PDF / Image)
 ## Installation
 
 ```bash
-pip install mistralai groq python-dotenv jsonschema
+pip install -r requirements.txt
 ```
 
 ---
@@ -117,7 +117,7 @@ GROQ_API_KEY=your_groq_api_key
 ## Running the Pipeline
 
 ```bash
-python sample.py
+python main.py
 ```
 
 The pipeline processes a document file path defined in the entry point and returns a **validated, confidence-scored JSON object**.
